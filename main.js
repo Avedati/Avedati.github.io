@@ -26,7 +26,7 @@ window.onload = function() {
 	var projects = {
 		'mylisp':'MyLisp',
 		'ai2048':'AI2048',
-		'athenaeum':'Athanaeum',
+		'athenaeum':'Athenaeum',
 		'stork':'Stork',
 		'upsilon':'Upsilon',
 		'armadillo':'Armadillo',
