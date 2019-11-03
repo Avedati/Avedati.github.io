@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|McLaren|Jomolhari|Staatliches|Yeon+Sung|Oswald|Liu+Jian+Mao+Cao|Big+Shoulders+Text|Playfair+Display|ZCOOL+XiaoWei|Bowlby+One+SC|Lobster');
+
+* {
+	margin:0;
+	border:0;
+	padding:0;
+	outline:0;
+	resize:none;
+	overflow:hidden;
+	font-family:'Montserrat';
+}
+
+html, body {
+	width:100%;
+	height:100%;
+}
+
+.center {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.center-x {
+	display:flex;
+	justify-content:center;
+}
+
+.center-y {
+	display:flex;
+	align-items:center;
+}
+
+.radius {
+	border-radius:5px;
+}
+
+div#window {
+	position:absolute;
+	left:15vw;
+	top:15vh;
+	z-index:10;
+	background:#2d3436;
+	width:70vw;
+	height:70vh;
+}
+
+div#window.hidden {
+	visibility:hidden;
+}
+
+div#window button#close {
+	float:left;
+	margin-left:calc(95% + calc(2.5% - 20px));
+	margin-right:calc(2.5% - 20px);
+	margin-top:calc(2.5% - 20px);
+	margin-bottom:calc(2.5% - 20px);
+	width:40px;
+	height:40px;
+	background:#CC3363;
+	color:white;
+	font-size:150%;
+	transition:.5s filter;
+}
+
+div#window button#close:hover {
+	filter:brightness(120%);
+}
+
+div#window h1 {
+	float:left;
+	padding:0px 10px;
+	width:calc(100% - 20px);
+	height:10%;
+	color:white;
+}
+
+div#window p {
+	float:left;
+	padding:0px 10px;
+	width:calc(100% - 20px);
+	height:calc(90% - 20px);
+	color:white;
+}
+
+nav {
+	float:left;
+	width:100%;
+	height:10%;
+	background:#272727;
+}
+
+nav h1 {
+	float:left;
+	width:30%;
+	height:100%;
+	color:white;
+}
+
+nav a {
+	float:left;
+	width:17.5%;
+	height:100%;
+	color:white;
+	text-decoration:none;
+	transition:all .5s;
+}
+
+nav a.active {
+	background:#474747;
+}
+
+nav a:hover {
+	background:#474747;
+}
+
+div#content-wrapper {
+	float:left;
+	width:100%;
+	height:90%;
+}
+
+div.screen {
+	float:left;
+	width:0;
+	height:100%;
+	visibility:hidden;
+}
+
+div.screen.active {
+	width:100%;
+	visibility:visible;
+}
+
+div#about article {
+	float:left;
+	padding:60px;
+	width:calc(50% - 120px);
+	height:calc(100% - 120px);
+	background:#EEF0F2;
+	font-size:250%;
+}
+
+div#about aside {
+	float:left;
+	width:50%;
+	height:100%;
+}
+
+div#about aside img {
+	width:256px;
+	height:256px;
+	border-radius:50%;
+}
+
+div#portfolio-container {
+	width:80vmin;
+	height:80vmin;
+	overflow-y:scroll;
+}
+
+div#portfolio-container div.portfolio-cell {
+	float:left;
+	padding:10px;
+	width:calc(25% - 20px);
+	height:calc(25% - 20px);
+	transition:all .5s;
+	cursor:default;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+}
+
+div#portfolio-container div.portfolio-cell:hover {
+	font-size:175%;
+}
+
+/*McLaren|Jomolhari|Staatliches|Yeon+Sung|Oswald|Liu+Jian+Mao+Cao|Big+Shoulders+Text|Playfair+Display|ZCOOL+XiaoWei|Bowlby+One+SC|Lobster*/
+
+#mylisp              { background:#55efc4; font-family:'McLaren';                       }
+#ai2048              { background:#81ecec; font-family:'Jomolhari';                     }
+#athenaeum           { background:#74b9ff; font-family:'Staatliches';                   }
+#stork               { background:#a29bfe; font-family:'Yeon Sung';                     }
+#upsilon             { background:#dfe6e9; font-family:'Oswald';                        }
+#armadillo           { background:#ffeaa7; font-family:'Liu Jian Mao Cao';              }
+#summarybuilder      { background:#fab1a0; font-family:'Big Shoulders Text';            }
+#htmlgamesandtools   { background:#ff7675; font-family:'Playfair Display';              }
+#pythongames         { background:#fd79a8; font-family:'ZCOOL XiaoWei';                 }
+#d3rubikscube        { background:#636e72; font-family:'Bowlby One SC'; color:white;    }
+#d2rubikscube        { background:#55efc4; font-family:'Lobster';                       }
+
+/*
+div#portfolio div.portfolio-cell {
+	float:left;
+	position:relative;
+	margin:20px;
+	width:calc(25vw - 40px);
+	height:calc(25vw - 40px);
+	background:#EEF0F2;
+}
+
+div#portfolio div.portfolio-cell div.portfolio-cell-description {
+	position:absolute;
+	left:0%;
+	top:0%;
+	width:0px;
+	font-size:0px;
+	height:calc(100% - 20px);
+	transition:font-size .5s;
+}
+
+div#portfolio div.portfolio-cell div.portfolio-cell-description h1 {
+	float:left;
+	width:100%;
+	height:50%;
+	font-size:125%;
+}
+
+div#portfolio div.portfolio-cell div.portfolio-cell-description p {
+	float:left;
+	width:100%;
+	height:50%;
+}
+
+div#portfolio div.portfolio-cell:hover>div.portfolio-cell-description {
+	padding:10px;
+	width:calc(100% - 20px);
+	font-size:100%;
+	background:#EEF0F2;
+	opacity:.7;
+	z-index:3;
+}
+
+div#portfolio div.portfolio-cell div.portfolio-cell-image-container {
+	position:absolute;
+	left:0%;
+	top:0%;
+	width:100%;
+	height:100%;
+}
+
+div#portfolio div.portfolio-cell img {
+	width:100%;
+	height:100%;
+}
+*/
+
+div#resume iframe {
+	width:80%;
+	height:80%;
+}
+
+div#contact textarea#contact-title {
+	margin:5px;
+	padding-left:5px;
+	width:calc(100% - 15px);
+	height:calc(10% - 10px);
+	background:#EEF0F2;
+	font-size:200%;
+	line-height:calc(10vh - 10px);
+}
+
+div#contact textarea#contact-message {
+	margin:5px;
+	padding-left:5px;
+	width:calc(100% - 15px);
+	height:calc(80% - 10px);
+	font-size:200%;
+	background:#EEF0F2;
+}
+
+div#contact button#contact-send {
+	margin:5px;
+	width:calc(100% - 10px);
+	height:calc(10% - 10px);
+	font-size:200%;
+	background:#EEF0F2;
+	transition:all .5s;
+}
+
+div#contact button#contact-send:hover {
+	filter:brightness(90%);
+}
