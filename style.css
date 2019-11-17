@@ -154,32 +154,32 @@ div#about aside img {
 }
 
 div#portfolio-container {
-	width:80vmin;
-	height:80vmin;
+	width:90vw;
+	height:90vh;
 	overflow-y:scroll;
 }
 
 div#portfolio-container div.portfolio-cell {
 	float:left;
-	padding:10px;
-	width:calc(25% - 20px);
-	height:calc(25% - 20px);
+	margin:10px;
+	padding:0px 10px;
+	box-shadow:10px 10px 0px #EEF0F2;
+	width:calc(50% - 50px);
+	height:calc(30% - 30px);
 	transition:all .5s;
-	cursor:default;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	-o-user-select:none;
-	user-select:none;
+}
+
+div#portfolio-container div.portfolio-cell h1, div#portfolio-container div.portfolio-cell p {
+	margin:10px;
 }
 
 div#portfolio-container div.portfolio-cell:hover {
-	font-size:175%;
+	box-shadow:10px 10px 0px #81ecec;
 }
 
 /*McLaren|Jomolhari|Staatliches|Yeon+Sung|Oswald|Liu+Jian+Mao+Cao|Big+Shoulders+Text|Playfair+Display|ZCOOL+XiaoWei|Bowlby+One+SC|Lobster*/
 
-#mylisp              { background:#55efc4; font-family:'McLaren';                       }
+/*#mylisp              { background:#55efc4; font-family:'McLaren';                       }
 #ai2048              { background:#81ecec; font-family:'Jomolhari';                     }
 #athenaeum           { background:#74b9ff; font-family:'Staatliches';                   }
 #stork               { background:#a29bfe; font-family:'Yeon Sung';                     }
@@ -189,97 +189,18 @@ div#portfolio-container div.portfolio-cell:hover {
 #htmlgamesandtools   { background:#ff7675; font-family:'Playfair Display';              }
 #pythongames         { background:#fd79a8; font-family:'ZCOOL XiaoWei';                 }
 #d3rubikscube        { background:#636e72; font-family:'Bowlby One SC'; color:white;    }
-#d2rubikscube        { background:#55efc4; font-family:'Lobster';                       }
-
-/*
-div#portfolio div.portfolio-cell {
-	float:left;
-	position:relative;
-	margin:20px;
-	width:calc(25vw - 40px);
-	height:calc(25vw - 40px);
-	background:#EEF0F2;
-}
-
-div#portfolio div.portfolio-cell div.portfolio-cell-description {
-	position:absolute;
-	left:0%;
-	top:0%;
-	width:0px;
-	font-size:0px;
-	height:calc(100% - 20px);
-	transition:font-size .5s;
-}
-
-div#portfolio div.portfolio-cell div.portfolio-cell-description h1 {
-	float:left;
-	width:100%;
-	height:50%;
-	font-size:125%;
-}
-
-div#portfolio div.portfolio-cell div.portfolio-cell-description p {
-	float:left;
-	width:100%;
-	height:50%;
-}
-
-div#portfolio div.portfolio-cell:hover>div.portfolio-cell-description {
-	padding:10px;
-	width:calc(100% - 20px);
-	font-size:100%;
-	background:#EEF0F2;
-	opacity:.7;
-	z-index:3;
-}
-
-div#portfolio div.portfolio-cell div.portfolio-cell-image-container {
-	position:absolute;
-	left:0%;
-	top:0%;
-	width:100%;
-	height:100%;
-}
-
-div#portfolio div.portfolio-cell img {
-	width:100%;
-	height:100%;
-}
-*/
+#d2rubikscube        { background:#55efc4; font-family:'Lobster';                       }*/
 
 div#resume iframe {
 	width:80%;
 	height:80%;
 }
 
-div#contact textarea#contact-title {
-	margin:5px;
-	padding-left:5px;
-	width:calc(100% - 15px);
-	height:calc(10% - 10px);
+div#contact p {
+	padding:40px;
+	width:calc(100% - 80px);
+	height:calc(100% - 80px);
 	background:#EEF0F2;
 	font-size:200%;
 	line-height:calc(10vh - 10px);
-}
-
-div#contact textarea#contact-message {
-	margin:5px;
-	padding-left:5px;
-	width:calc(100% - 15px);
-	height:calc(80% - 10px);
-	font-size:200%;
-	background:#EEF0F2;
-}
-
-div#contact button#contact-send {
-	margin:5px;
-	width:calc(100% - 10px);
-	height:calc(10% - 10px);
-	font-size:200%;
-	background:#EEF0F2;
-	transition:all .5s;
-}
-
-div#contact button#contact-send:hover {
-	filter:brightness(90%);
 }

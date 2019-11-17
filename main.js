@@ -9,7 +9,7 @@ window.onload = function() {
 		};
 	});
 
-	var descriptions = {
+	/*var descriptions = {
 		'mylisp':'My lisp is a hobby project of mine. It is a minimal, but working and expandable lisp interpreter. It is written in C11.',
 		'ai2048':'This is a clone of the popular 2048 game. I wrote this program in C++ using the SFML library for graphics. It is essentially an animation of an AI based on a Pure Monte Carlo tree search playing 2048.',
 		'athenaeum':'This is an in progress project. After I wrote my first web scraper, I realized the many inefficiencies that came as strings attached to my method of collecting and filtering through every text element on a webpage. Athenaeum, written in c, will be an improvement on Upsilon.',
@@ -57,5 +57,15 @@ window.onload = function() {
 		var subject = document.getElementById('contact-title').value;
 		var body = document.getElementById('contact-message').value;
 		window.open('mailto:ajvedati@gmail.com?subject=' + subject + '&body=' + body);
-	};
+	};*/
+
+	[...document.getElementsByClassName('portfolio-cell')].forEach(function(v) {
+		v.onclick = function() {
+			var link = 'https://github.com/Avedati/';
+			if(this.id === 'd2rubikscube') { link += '2DRubiksCube'; }
+			if(this.id === 'd3rubikscube') { link += '3DRubiksCube'; }
+			else { link += this.id; }
+			window.open(link);
+		};
+	});
 }
