@@ -177,20 +177,6 @@ div#portfolio-container div.portfolio-cell:hover {
 	box-shadow:10px 10px 0px #81ecec;
 }
 
-/*McLaren|Jomolhari|Staatliches|Yeon+Sung|Oswald|Liu+Jian+Mao+Cao|Big+Shoulders+Text|Playfair+Display|ZCOOL+XiaoWei|Bowlby+One+SC|Lobster*/
-
-/*#mylisp              { background:#55efc4; font-family:'McLaren';                       }
-#ai2048              { background:#81ecec; font-family:'Jomolhari';                     }
-#athenaeum           { background:#74b9ff; font-family:'Staatliches';                   }
-#stork               { background:#a29bfe; font-family:'Yeon Sung';                     }
-#upsilon             { background:#dfe6e9; font-family:'Oswald';                        }
-#armadillo           { background:#ffeaa7; font-family:'Liu Jian Mao Cao';              }
-#summarybuilder      { background:#fab1a0; font-family:'Big Shoulders Text';            }
-#htmlgamesandtools   { background:#ff7675; font-family:'Playfair Display';              }
-#pythongames         { background:#fd79a8; font-family:'ZCOOL XiaoWei';                 }
-#d3rubikscube        { background:#636e72; font-family:'Bowlby One SC'; color:white;    }
-#d2rubikscube        { background:#55efc4; font-family:'Lobster';                       }*/
-
 div#resume iframe {
 	width:80%;
 	height:80%;
