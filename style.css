@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|McLaren|Jomolhari|Staatliches|Yeon+Sung|Oswald|Liu+Jian+Mao+Cao|Big+Shoulders+Text|Playfair+Display|ZCOOL+XiaoWei|Bowlby+One+SC|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 * {
 	margin:0;
@@ -178,8 +178,9 @@ div#portfolio-container div.portfolio-cell:hover {
 }
 
 div#resume iframe {
-	width:80%;
-	height:80%;
+	width:50%;
+	min-height:90%;
+	height:auto;
 }
 
 div#contact p {
