@@ -14,8 +14,8 @@ window.onload = function() {
 			var link = 'https://github.com/Avedati/';
 			if     (this.id === 'd2rubikscube') { link += '2DRubiksCube'; }
 			else if(this.id === 'd3rubikscube') { link += '3DRubiksCube'; }
-			else if(this.id === 'aicourse') { link = 'https://Avedati.github.io/TeachingWebsite/#aicourse'; }
-			else if(this.id === 'gamedesigncourse') { link = 'https://Avedati.github.io/TeachingWebsite/#gamedesigncourse'; }
+			else if(this.id === 'aicourse') { link = 'https://Avedati.github.io/AbhisTutorials/#aicourse'; }
+			else if(this.id === 'gamedesigncourse') { link = 'https://Avedati.github.io/AbhisTutorials/#gamedesigncourse'; }
 			else { link += this.id; }
 			window.open(link);
 		};
