@@ -1,15 +1,15 @@
 window.onload = function() {
-	['about', 'portfolio', 'resume', 'contact'].forEach(function(v) {
-		document.getElementById(v + '-link').onclick = function() {
-			[...document.getElementsByClassName('active')].forEach(function(w) {
-				w.classList.remove('active');
+	[...document.getElementById('options').children].forEach(function(li) {
+		li.onclick = function() {
+			[...document.getElementsByClassName('active')].forEach(function(v) {
+				v.classList.remove('active');
 			});
-			document.getElementById(v).classList.add('active');
-			this.classList.add('active');
-		};
+			li.classList.add('active');
+			[...document.getElementsByClassName('screen')][[...document.getElementById('options').children].indexOf(li)].classList.add('active');
+		}
 	});
 
-	[...document.getElementsByClassName('portfolio-cell')].forEach(function(v) {
+	[...document.getElementsByClassName('project')].forEach(function(v) {
 		v.onclick = function() {
 			var link = 'https://github.com/Avedati/';
 			if     (this.id === 'd2rubikscube') { link += '2DRubiksCube'; }
@@ -19,5 +19,5 @@ window.onload = function() {
 			else { link += this.id; }
 			window.open(link);
 		};
-	});
-}
+	}); 
+};
