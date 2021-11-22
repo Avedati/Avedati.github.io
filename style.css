@@ -264,6 +264,7 @@ div.screen#resume embed {
 	div#menu ul li {
 		width:100%;
 		height:5vh;
+		background:#D4D4D6;
 	}
 	div#menu ul li p {
 		font-size:2.5vw;
