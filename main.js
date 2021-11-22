@@ -20,4 +20,13 @@ window.onload = function() {
 			window.open(link);
 		};
 	}); 
+
+	document.getElementById('mobile-menu').onclick = function(ev) {
+		var optionsList = document.getElementById('options');
+		if(optionsList.classList.contains('active')) {
+			document.getElementById('options').classList.remove('active');
+		} else {
+			document.getElementById('options').classList.add('active');
+		}
+	};
 };
