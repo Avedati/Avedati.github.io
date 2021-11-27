@@ -322,6 +322,7 @@ div.screen#resume iframe {
 		font-size:3.5vw;
 	}
 	div.screen#about aside img {
+		margin-top:5vh;
 		width:auto;
 		height:40vh;
 	}
