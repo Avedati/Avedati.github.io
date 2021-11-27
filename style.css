@@ -274,10 +274,13 @@ div.screen#resume iframe {
 	div#menu ul li {
 		width:100%;
 		height:5vh;
-		background:#D4D4D6;
 	}
 	div#menu ul li p {
 		font-size:2.5vw;
+		background:var(--color-2);
+	}
+	div#menu ul li.active p {
+		background:#D4D4D6;
 	}
 	div.screen#about article {
 		font-size:3.5vw;
