@@ -312,7 +312,7 @@ div.screen#resume iframe {
 	}
 	div.screen#about aside img {
 		width:auto;
-		height:300px;
+		height:40vh;
 	}
 	div.screen#about article {
 		margin-left:10vw;
@@ -329,12 +329,5 @@ div.screen#resume iframe {
 	}
 	div.project p {
 		font-size:3.75vw;
-	}
-}
-
-@media only screen and (max-width: 300px) {
-	div.screen#about aside img {
-		width:auto;
-		height:250px;
 	}
 }
