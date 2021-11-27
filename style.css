@@ -176,7 +176,7 @@ div.project h1 {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	font-size:1.5vw;
+	font-size:1.5vmax;
 	/*font-family:'Open Sans', monospace;*/
 	margin:0;
 }
@@ -189,7 +189,7 @@ div.project p {
 	margin-bottom:1vh;
 	width:calc(100% - 2vw);
 	height:calc(80% - 2vh);
-	font-size:1.05vw;
+	font-size:1.05vmax;
 	font-family: Open Sans,Helvetica,Arial,sans-serif;
 	/*font-family:'Open Sans', monospace;*/
 	text-overflow:ellipsis;
@@ -288,10 +288,10 @@ div.screen#resume iframe {
 		height:40vh;
 	}
 	div.project h1 {
-		font-size:3.5vw;
+		font-size:2.75vmax;
 	}
 	div.project p {
-		font-size:3vw;
+		font-size:2vmax;
 		margin-left:2vw;
 		margin-right:2vw;
 		margin-top:2vh;
@@ -337,9 +337,9 @@ div.screen#resume iframe {
 		font-size:4.5vw;
 	}
 	div.project h1 {
-		font-size:4.25vw;
+		font-size:2.75vmax;
 	}
 	div.project p {
-		font-size:3.75vw;
+		font-size:2vmax;
 	}
 }
