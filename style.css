@@ -410,6 +410,44 @@ div.projects h3::selection {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	ul.experience-list {
+		margin-left:calc(50vw - 120px);
+		margin-right:calc(50vw - 120px);
+
+		width:240px;
+	}
+
+	h3.position {
+		display:flex;
+		align-items:center;
+	}
+
+	li.experience-container div.headline {
+		height:5vh;
+	}
+
+	span.position-larger, span.position-smaller {
+		font-size:12px;
+	}
+
+	span.company {
+		font-size:12px;
+	}
+
+	h4.timeframe {
+		font-size:11px;
+	}
+
+	div.description {
+		font-size:11px;
+	}
+
+	ul.socials li {
+		font-size:14px;
+	}
+}
+
 /* Vertical */
 @media screen and (max-height: 530px) {
 	aside img {
