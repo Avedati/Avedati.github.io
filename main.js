@@ -16,4 +16,12 @@ $(document).ready(function() {
 			scrollTop: $('.projects').offset().top
 		}, 500);
 	});
+
+	$('.bit-project').click(function() {
+		window.open('https://github.com/avedati/bit', '_blank');
+	});
+
+	$('.chat-project').click(function() {
+		window.open('https://github.com/avedati/EncChatPy', '_blank');
+	});
 });

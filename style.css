@@ -209,7 +209,6 @@ ul.experience-list {
 ul.experience-list li.experience-container {
 	float:left;
 	width:100;
-	min-height:25vh;
 }
 
 li.experience-container div.headline {
@@ -315,23 +314,13 @@ ul.experience-list li.separator div.line {
 	background-color:#DBDCDA;
 }
 
-div.projects h3 {
-	float:left;
-	width:100%;
-	height:10vh;
-
-	display:flex;
-	justify-content:center;
-	align-items:center;
-
-	color:#DBDCDA;
-	font-family:'Inter', sans-serif;
-	font-size:32px;
-	font-weight:normal;
+span.project-title {
+	cursor:default;
+	transition:.5s font-weight ease;
 }
 
-div.projects h3::selection {
-	background-color:#464547;
+span.project-title:hover {
+	font-weight:normal;
 }
 
 @media screen and (max-width: 1314px) {
