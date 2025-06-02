@@ -7,6 +7,19 @@
 	background:#4169E1;
 }
 
+span.green {
+	color:#9EE493;
+}
+
+a.inline-link {
+	color:#F90093;
+	text-decoration:none;
+}
+
+a.inline-link:hover {
+	text-decoration:underline;
+}
+
 html, body {
 	margin:0;
 	padding:0;
@@ -142,20 +155,20 @@ div.resume:hover {
 	}
 
 	div.social-container {
-		font-size:20px;
+		font-size:30px;
 	}
 
 	div.social-container:hover {
-		font-size:22.5px;
+		font-size:35px;
 	}
 
 	div.resume {
 		width:20%;
-		font-size:15px;
+		font-size:20px;
 	}
 
 	div.resume:hover {
-		font-size:17px;
+		font-size:22.5px;
 	}
 }
 
